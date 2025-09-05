@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: rgb(186, 98, 11);
+  width: 100%;
+  max-width: 2560px;
+  background-color: rgba(222, 184, 135, 0.046);
+  background-image: url(Sneakers.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+#headarea {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: rgba(120, 92, 30, 0.132);
+}
+main {
+  align-items: start;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin: 15px;
+}
+#adidascontainer img,
+#nikecontainer img,
+#pumacontainer img,
+#nbcontainer img {
+  height: 250px;
+  width: 250px;
+  border-radius: 90px;
+}
+#adidascontainer,
+#nikecontainer,
+#pumacontainer,
+#nbcontainer {
+  padding: 10px;
+}
+#adidascontainer :hover,
+#nikecontainer :hover,
+#pumacontainer :hover,
+#nbcontainer :hover {
+  transform: translateY(-4px);
+}
+
+#adidascontainer a,
+#nikecontainer a,
+#pumacontainer a,
+#nbcontainer a {
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgb(186, 98, 11);
+
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* S & M PHONES */
+@media (min-width: 320px) {
+  body {
+    align-items: center;
+    width: 100%;
+  }
+  #headarea {
+    font-size: auto;
+    width: 100%;
+  }
+  #adidascontainer img,
+  #nikecontainer img,
+  #pumacontainer img,
+  #nbcontainer img {
+    margin-left: 47px;
+    height: 200px;
+    width: 200px;
+    border-radius: 90px;
+  }
+}
+/* L PHONES */
+@media (min-width: 420px) {
+  body {
+    align-items: center;
+    width: 100%;
+  }
+  #headarea {
+    font-size: auto;
+    width: 100%;
+  }
+  #adidascontainer img,
+  #nikecontainer img,
+  #pumacontainer img,
+  #nbcontainer img {
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 90px;
+  }
+  #adidascontainer a,
+  #nikecontainer a,
+  #pumacontainer a,
+  #nbcontainer a {
+    text-align: center;
+  }
+}
+/* TABLET */
+@media (min-width: 768px) {
+  body {
+    align-items: center;
+    width: 100%;
+  }
+  #headarea {
+    font-size: auto;
+    width: 100%;
+  }
+  #adidascontainer img,
+  #nikecontainer img,
+  #pumacontainer img,
+  #nbcontainer img {
+    margin-left: 10px;
+    height: 200px;
+    width: 200x;
+    border-radius: 90px;
+  }
+  #adidascontainer a,
+  #nikecontainer a,
+  #pumacontainer a,
+  #nbcontainer a {
+    text-align: center;
+    padding: 50px;
+  }
+}
+/* LAPTOP */
+@media (min-width: 1024px) {
+  body {
+    align-items: center;
+    width: 100%;
+  }
+  #headarea {
+    font-size: auto;
+    width: 100%;
+  }
+
+  #adidascontainer img,
+  #nikecontainer img,
+  #pumacontainer img,
+  #nbcontainer img {
+    height: 201px;
+    width: 201x;
+    border-radius: 90px;
+  }
+
+  #adidascontainer a,
+  #nikecontainer a,
+  #pumacontainer a,
+  #nbcontainer a {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+/* 4K SCREENS */
+@media (min-width: 2550px) {
+  body {
+    align-items: center;
+    width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #headarea {
+    font-size: 5rem;
+    width: 100%;
+  }
+
+  #adidascontainer img,
+  #nikecontainer img,
+  #pumacontainer img,
+  #nbcontainer img {
+    height: 45vh;
+    width: 45vh;
+  }
+
+  #adidascontainer a,
+  #nikecontainer a,
+  #pumacontainer a,
+  #nbcontainer a {
+    font-size: 5rem;
+    text-align: center;
+  }
+}

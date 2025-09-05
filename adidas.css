@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(Sneakers.webp);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  grid-row: auto;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+body a {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(186, 98, 11);
+  font-size: 25px;
+}
+body a img {
+  height: 250px;
+  width: 250px;
+  border-radius: 90px;
+}
+body a :hover {
+  transform: translateY(-5px);
+}
+body a p {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+/* S & M PHONES */
+@media (min-width: 320px) {
+  body {
+    align-items: center;
+    width: 100%;
+  }
+
+  body a img {
+    margin-left: 47px;
+    height: 200px;
+    width: 200px;
+    border-radius: 90px;
+  }
+}
+/* L PHONES */
+@media (min-width: 420px) {
+  body {
+    align-items: center;
+    width: 100%;
+  }
+
+  body a img {
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 90px;
+  }
+  body a {
+    text-align: center;
+  }
+}
+/* TABLET */
+@media (min-width: 768px) {
+  body {
+    align-items: center;
+    width: 100%;
+  }
+
+  body a img {
+    margin-left: 10px;
+    height: 200px;
+    width: 200x;
+    border-radius: 90px;
+  }
+  body a {
+    text-align: center;
+    padding: 50px;
+  }
+}
+/* LAPTOP */
+@media (min-width: 1024px) {
+  body {
+    align-items: center;
+    width: 100%;
+  }
+
+  body a img {
+    height: 201px;
+    width: 201x;
+    border-radius: 90px;
+  }
+
+  body a {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+/* 4K SCREENS */
+@media (min-width: 2550px) {
+  body {
+    align-items: center;
+    width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  body a img {
+    height: 45vh;
+    width: 45vh;
+  }
+
+  img a {
+    font-size: 5rem;
+    text-align: center;
+  }
+}
