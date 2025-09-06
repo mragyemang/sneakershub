@@ -5,10 +5,7 @@
 }
 
 body {
-  background-image: url(Sneakers.webp);
-  background-size: auto;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #b8bdb5;
   display: flex;
   flex-wrap: wrap;
   grid-row: auto;

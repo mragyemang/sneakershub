@@ -7,11 +7,7 @@ body {
   color: rgb(186, 98, 11);
   width: 100%;
   max-width: 2560px;
-  background-color: rgba(222, 184, 135, 0.046);
-  background-image: url(Sneakers.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
+  background-color: #b8bdb5;
 }
 #headarea {
   font-size: 1.5rem;
